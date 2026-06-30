@@ -1,30 +1,53 @@
-# C-Cpp-Mastery
+# C-Cpp-DSA
 
-A structured collection of C and C++ code covering core concepts, data structures & algorithms, and small projects — built while learning low-level programming and preparing for systems/AI-ML engineering work.
+A structured collection of Data Structures & Algorithms implemented in C and C++, along with core language concepts and small projects — built while learning low-level programming and preparing for systems/AI-ML engineering work.
 
 ## About
 
-This repository is my personal journey through C and C++: from language fundamentals to algorithmic problem solving to small standalone projects. It doubles as a study log and a portfolio of working code.
+This repository is my personal journey through C and C++, with a strong focus on Data Structures & Algorithms (DSA): from basic data structure implementations to algorithmic problem solving to small standalone projects. It doubles as a study log and a portfolio of working code.
 
 ## Repository Structure
 
 ```
-C-Cpp-Mastery/
-├── learning-notes/        # Concept-wise notes and example snippets
-│   ├── c-basics/          # Pointers, memory, structs, file I/O, etc.
-│   └── cpp-basics/        # OOP, STL, templates, smart pointers, etc.
-├── dsa/                   # Data structures & algorithms practice
+C-Cpp-DSA/
+├── dsa/                     # Data structures & algorithms (core focus)
 │   ├── arrays/
+│   ├── strings/
 │   ├── linked-lists/
+│   ├── stacks-queues/
 │   ├── trees/
 │   ├── graphs/
-│   └── sorting-searching/
-├── projects/               # Larger standalone projects
+│   ├── hashing/
+│   ├── sorting/
+│   ├── searching/
+│   ├── recursion-backtracking/
+│   └── dynamic-programming/
+├── learning-notes/          # Concept-wise notes and example snippets
+│   ├── c-basics/            # Pointers, memory, structs, file I/O, etc.
+│   └── cpp-basics/          # OOP, STL, templates, smart pointers, etc.
+├── projects/                # Larger standalone projects
 │   └── <project-name>/
-├── mini-projects/          # Small self-contained programs
+├── mini-projects/           # Small self-contained programs
 │   └── <mini-project-name>/
 └── README.md
 ```
+
+## DSA Coverage
+
+| Category | Topics |
+|---|---|
+| Arrays & Strings | Two pointers, sliding window, prefix sums |
+| Linked Lists | Singly, doubly, circular, reversal, cycle detection |
+| Stacks & Queues | Implementation, monotonic stack, circular queue |
+| Trees | BST, AVL, traversals, segment trees, tries |
+| Graphs | BFS, DFS, shortest paths, MST, topological sort |
+| Hashing | Hash maps/sets, collision handling |
+| Sorting | Merge, quick, heap, counting sort |
+| Searching | Binary search and variations |
+| Recursion & Backtracking | N-Queens, subsets, permutations |
+| Dynamic Programming | Knapsack, LCS, DP on trees/graphs |
+
+Each topic folder contains C and/or C++ implementations with comments explaining the approach and time/space complexity.
 
 ## Topics Covered
 
